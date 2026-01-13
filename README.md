@@ -26,16 +26,3 @@ This project simulates multiple "artist" threads drawing shapes (Squares, Circle
     * Context Switching & Scheduler Fairness
     * Critical Section Management
     * Performance Profiling (Wait Time Analysis)
-
-##  How to Build & Run
-
-### Prerequisites
-* A C++ Compiler (GCC, Clang, or MSVC) supporting C++11 or higher.
-
-### Linux / macOS (Terminal)
-```bash
-# Compile the project (Link with pthread library)
-g++ -std=c++11 -pthread multithreaded_canvas.cpp -o canvas_sim
-
-# Run the simulation
-./canvas_sim
